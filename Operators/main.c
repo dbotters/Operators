@@ -10,9 +10,20 @@
 
 int main(int argc, const char * argv[])
 {
+	int		myInt, anotherInt;
 
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+	myInt = 5;
+	// anotherInt = myInt;
+
+	// printf("The value of myInt is %d.\n", myInt++ );
+	// printf("The value of myInt is %d.\n\n", ++myInt );
+
+	printf("The value of myInt is %d.\n\n", myInt += 3 );
+	printf("The value of myInt is %d.\n\n", myInt *= 3 );
+	printf("The value of myInt is %d.\n\n", myInt++ );
+	printf("The value of myInt is %d.\n\n", myInt++ );
+	// printf("The value of my integers is %d and %d\n", myInt, anotherInt );
+
+	return 0;
 }
 
